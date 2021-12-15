@@ -6,13 +6,16 @@ test('outputs the correct string', () => {
   expect(hello()).toBe("Hello World!");
 });
 */
-import greet from './greetings';
+//import greet from './greetings';
 
-describe('test greet()', function () {
+Import = './greet.js';
+
+describe('test greet()', function greet(name) {
   it('should greet a name', function () {
     expect(greet('Elizabeth')).toEqual('Hello, Elizabeth');
   });
-  it('should handle null value', function () {
+ /*
+  it(name === null || name == undefined, function () {
     expect(greet()).toEqual('Hello there!');
   });
   it('should handle shouting', function () {
@@ -26,4 +29,5 @@ describe('test greet()', function () {
       'Hello, Alex, Arsene, Jose, Zidane'
     );
   });
+  */
 });

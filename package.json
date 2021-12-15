@@ -2,13 +2,13 @@
   "name": "activities",
   "version": "1.0.0",
   "description": "week6 unit test",
-  "main": "index.js",
+  "main": "greet.js",
   "scripts": {
     "test": "jest"
   },
   "jest": {
     "testMatch": [
-      "<rootDir>/**.spec.js"
+      "<rootDir>/greet.js"
     ]
   },
   "keywords": [],
