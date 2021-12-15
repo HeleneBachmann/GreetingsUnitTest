@@ -1,19 +1,15 @@
-/*
-var utils  = require('course-utilities');
-var hello = utils.load('./hello.js', 'hello');
 
-test('outputs the correct string', () => {
-  expect(hello()).toBe("Hello World!");
-});
-*/
 //import greet from './greetings';
 
 Import = './greet.js';
 
-describe('test greet()', function greet(name) {
+describe('test greet()', function () {
   it('should greet a name', function () {
     expect(greet('Elizabeth')).toEqual('Hello, Elizabeth');
   });
+//trying to comment all else out, to see if i can get one test to work
+  // failed to make it work
+
  /*
   it(name === null || name == undefined, function () {
     expect(greet()).toEqual('Hello there!');
